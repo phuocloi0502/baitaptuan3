@@ -19,7 +19,7 @@
             android:layout_weight="1"
             android:background="#008242"
             android:text="Các kiểu lập trình sự kiện"
-            android:textAlignment="center"
+            android:gravity="center"
             android:textColor="#fff"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -76,7 +76,7 @@
             android:layout_weight="1"
             android:background="#F44336"
             android:text="Kết quả"
-            android:textAlignment="center"
+            android:gravity="center"
             android:textColor="#fff"
             android:textSize="25sp"
             android:textStyle="bold" />
