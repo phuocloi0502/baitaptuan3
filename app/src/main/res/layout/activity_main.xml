@@ -18,8 +18,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#008242"
-            android:text="Các kiểu lập trình sự kiện"
             android:gravity="center"
+            android:text="Các kiểu lập trình sự kiện"
             android:textColor="#fff"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -38,13 +38,16 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/editsoa"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
                 android:hint="Nhập số a"
                 android:paddingLeft="40dp"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:inputType="number"
+               />
         </LinearLayout>
 
         <LinearLayout
@@ -61,13 +64,16 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:id="@+id/editsob"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
                 android:hint="Nhập số b"
                 android:paddingLeft="40dp"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:inputType="number"
+              />
         </LinearLayout>
 
         <TextView
@@ -75,13 +81,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#F44336"
-            android:text="Kết quả"
             android:gravity="center"
+            android:text="Kết quả"
             android:textColor="#fff"
             android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:id="@+id/txvkq"/>
 
         <Button
+            android:id="@+id/btn_tong"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -91,6 +99,7 @@
             android:textSize="22sp" />
 
         <Button
+            android:id="@+id/btnhieu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -100,6 +109,7 @@
             android:textSize="22sp" />
 
         <Button
+            android:id="@+id/btntich"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -109,6 +119,7 @@
             android:textSize="22sp" />
 
         <Button
+            android:id="@+id/btnthuong"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -118,6 +129,7 @@
             android:textSize="22sp" />
 
         <Button
+            android:id="@+id/btnuoc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -135,7 +147,8 @@
             android:textAllCaps="false"
             android:textColor="#F44336"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:id="@+id/btnthoat"/>
 
     </LinearLayout>
 
